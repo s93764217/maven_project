@@ -28,6 +28,7 @@ public class SpringbootDay01ApplicationTests {
         List<User> users = userMapper.selectAll();
         for (User user : users) {
             System.out.println("user = " + user);
+
         }
     }
     @Test
